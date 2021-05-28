@@ -1,0 +1,9 @@
+.container-text p {
+  margin-top: 6.4rem;
+}
+
+.divider-gradient {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(85.91deg, #62D97C -44.86%, #61A7C6 170.51%);
+}

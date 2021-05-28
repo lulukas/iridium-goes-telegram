@@ -1,0 +1,14 @@
+.font-64-bold {
+  font-size: var(--size-font-64);
+  font-weight: 700;
+}
+
+.font-64-regular {
+  font-size: var(--size-font-64);
+  font-weight: 400;
+}
+
+.font-24-regular {
+  font-size: var(--size-font-24);
+  font-weight: 400;
+}

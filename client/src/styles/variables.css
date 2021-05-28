@@ -1,0 +1,21 @@
+:root {
+  /* colors */
+  --color-primary-1: #62d97c;
+  --color-primary-2: #62adbe;
+  --color-primary-3: #c4c4c4;
+  --color-text-light: #eff7f8;
+  --color-text-dark: #003146;
+  --color-secondary-1: #fcb034;
+
+  /* font sizes */
+
+  --size-font-64: 6.4rem;
+  --size-font-24: 2.4rem;
+}
+
+@media screen and (max-width: 1220px) {
+  :root {
+    --size-font-64: 3.2rem;
+    --size-font-24: 1.8rem;
+  }
+}

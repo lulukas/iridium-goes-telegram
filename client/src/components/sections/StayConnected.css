@@ -1,0 +1,43 @@
+.container-stay-connected {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-stay-connected .container-text {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 40%;
+}
+
+.stay-connected-img {
+  width: 40%;
+
+  position: absolute;
+  bottom: 12.6rem;
+  right: 12.6rem;
+}
+
+@media screen and (max-width: 1220px) {
+  .container-stay-connected {
+    position: relative;
+    width: 100%;
+    height: initial;
+  }
+
+  .container-stay-connected .container-text {
+    position: initial;
+    margin: 12.8rem auto;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .stay-connected-img {
+    position: initial;
+    display: block;
+    margin: 12.8rem auto;
+    width: 90%;
+  }
+}
+

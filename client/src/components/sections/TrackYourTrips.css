@@ -1,0 +1,37 @@
+.container-track-your-trips {
+  display: flex;
+  width: 100%;
+  padding: 10vw;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(86.55deg, #62d97c -45.65%, #61a7c6 110%);
+
+  color: var(--color-text-light);
+}
+
+.container-track-your-trips .container-text {
+  width: 50%;
+}
+
+.track-your-trips-img {
+  max-width: 450px;
+  width: 40%;
+}
+
+@media screen and (max-width: 1220px) {
+  .container-track-your-trips {
+    flex-direction: column;
+  }
+
+  .container-track-your-trips .container-text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .track-your-trips-img {
+    max-width: 90%;
+    max-height: 32rem;
+    margin-bottom: 6.4rem;
+  }
+}
